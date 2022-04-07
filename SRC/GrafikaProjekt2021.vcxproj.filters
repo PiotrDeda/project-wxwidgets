@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Console">
+      <UniqueIdentifier>{b0389e3b-c77c-466b-8b8f-d451f2fbfca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxFormBuilder">
+      <UniqueIdentifier>{a1b09679-3d97-4df8-bfa7-91b9fb7f8755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{f8740754-a6f8-4e88-aa1f-ba700ef562b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape Container">
+      <UniqueIdentifier>{95f10d7d-94d4-499e-ab82-57adffad27ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{6ab23f2a-fdaa-4b64-bf0d-cdcc819bd157}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project.cpp">
+      <Filter>wxFormBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProjectMainFrame.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shape.cpp">
+      <Filter>Shape Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShapeContainer.cpp">
+      <Filter>Shape Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Presentation.cpp">
+      <Filter>Presentation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Command.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Project.h">
+      <Filter>wxFormBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ProjectMainFrame.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ArgumentTypes.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Shape.h">
+      <Filter>Shape Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ShapeContainer.h">
+      <Filter>Shape Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Presentation.h">
+      <Filter>Presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Segment.h">
+      <Filter>Presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ListObject.h">
+      <Filter>Shape Container</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GrafikaProjekt2021.fbp">
+      <Filter>wxFormBuilder</Filter>
+    </None>
+  </ItemGroup>
+</Project>
